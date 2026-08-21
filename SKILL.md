@@ -76,6 +76,7 @@ Read [references/security-and-evaluation.md](references/security-and-evaluation.
 - Parsing, chunking, uploads, queues, and recovery: [references/ingestion-and-uploads.md](references/ingestion-and-uploads.md)
 - Entity extraction, graph projection, and entity-aware search: [references/knowledge-graph.md](references/knowledge-graph.md)
 - Security model and evaluation metrics: [references/security-and-evaluation.md](references/security-and-evaluation.md)
+- Evidence-first evaluation cases and release protocol: [references/evaluation-playbook.md](references/evaluation-playbook.md)
 - Production failure modes: [references/production-gotchas.md](references/production-gotchas.md)
 
 ## Expected output

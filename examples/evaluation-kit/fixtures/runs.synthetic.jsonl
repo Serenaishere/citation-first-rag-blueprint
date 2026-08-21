@@ -1,0 +1,4 @@
+{"case_id":"aurora-exact-change","retrieved_document_ids":["doc-aurora-release","doc-aurora-plan"],"cited_document_ids":["doc-aurora-release"],"answered":true}
+{"case_id":"aurora-multi-evidence","retrieved_document_ids":["doc-aurora-plan","doc-aurora-release"],"cited_document_ids":["doc-aurora-plan","doc-aurora-release"],"answered":true}
+{"case_id":"aurora-unanswerable-owner","retrieved_document_ids":[],"cited_document_ids":[],"answered":false}
+{"case_id":"aurora-scope-boundary","retrieved_document_ids":["doc-aurora-release","doc-borealis-private","doc-aurora-plan"],"cited_document_ids":["doc-aurora-release","doc-aurora-plan"],"answered":true}

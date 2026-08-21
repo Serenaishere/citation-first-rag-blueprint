@@ -24,3 +24,5 @@ jobs:
         run: node scripts/security-scan.mjs
       - name: Test minimal example
         run: npm test --prefix examples/minimal-rrf
+      - name: Test evaluation kit
+        run: npm test --prefix examples/evaluation-kit
