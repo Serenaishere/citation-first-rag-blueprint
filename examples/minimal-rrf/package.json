@@ -1,0 +1,15 @@
+{
+  "name": "citation-first-rag-minimal-rrf",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Dependency-free reciprocal rank fusion example using synthetic data",
+  "type": "module",
+  "scripts": {
+    "demo": "node demo.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}

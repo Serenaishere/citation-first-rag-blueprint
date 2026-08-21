@@ -1,0 +1,4 @@
+interface:
+  display_name: "Citation-First RAG Blueprint"
+  short_description: "Build grounded RAG systems with verifiable citations"
+  default_prompt: "Use $citation-first-rag-blueprint to design a citation-backed RAG system for my document corpus."

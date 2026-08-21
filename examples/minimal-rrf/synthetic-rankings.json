@@ -1,0 +1,49 @@
+{
+  "query": "What changed in the fictional Aurora release?",
+  "rankedLists": [
+    {
+      "name": "vector",
+      "weight": 1,
+      "items": [
+        { "id": "aurora-release" },
+        { "id": "aurora-plan" },
+        { "id": "borealis-notes" }
+      ]
+    },
+    {
+      "name": "lexical",
+      "weight": 1,
+      "items": [
+        { "id": "aurora-plan" },
+        { "id": "aurora-release" },
+        { "id": "orion-release" }
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "id": "aurora-release",
+      "title": "Aurora release note",
+      "url": "https://example.invalid/aurora/release",
+      "excerpt": "The fictional release added deterministic citation labels."
+    },
+    {
+      "id": "aurora-plan",
+      "title": "Aurora planning note",
+      "url": "https://example.invalid/aurora/plan",
+      "excerpt": "The fictional plan proposed hybrid retrieval and evidence checks."
+    },
+    {
+      "id": "borealis-notes",
+      "title": "Borealis notes",
+      "url": "https://example.invalid/borealis/notes",
+      "excerpt": "An unrelated fictional project note."
+    },
+    {
+      "id": "orion-release",
+      "title": "Orion release note",
+      "url": "https://example.invalid/orion/release",
+      "excerpt": "Another unrelated fictional release note."
+    }
+  ]
+}
