@@ -54,8 +54,11 @@ flowchart LR
 - [`references/ingestion-and-uploads.md`](references/ingestion-and-uploads.md)：解析、双轨索引与恢复。
 - [`references/knowledge-graph.md`](references/knowledge-graph.md)：图谱增强与实体级检索。
 - [`references/security-and-evaluation.md`](references/security-and-evaluation.md)：威胁模型与质量门槛。
+- [`references/evaluation-playbook.md`](references/evaluation-playbook.md)：以证据为中心的数据集设计与发布指标。
 - [`references/production-gotchas.md`](references/production-gotchas.md)：生产环境常见故障。
 - [`examples/minimal-rrf`](examples/minimal-rrf)：合成数据驱动的零依赖 JavaScript 示例。
+- [`examples/evaluation-kit`](examples/evaluation-kit)：确定性的检索、引用、拒答和越权泄漏指标。
+- [`templates`](templates)：可复用的评测计划、威胁模型和架构决策模板。
 
 ## 运行示例
 
@@ -68,6 +71,16 @@ npm run demo
 ```
 
 示例仅演示排序融合和引用映射，不调用网络，也不包含任何模型接口。
+
+评测工具包可以单独运行：
+
+```bash
+cd examples/evaluation-kit
+npm test
+npm run demo
+```
+
+合成演示刻意加入了一条越权检索候选，用于直观看到授权泄漏门禁失败，而不是把失败隐藏在平均分中。
 
 ## 本仓库不是什么
 

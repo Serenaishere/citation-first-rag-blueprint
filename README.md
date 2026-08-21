@@ -54,8 +54,11 @@ Core design choices:
 - [`references/ingestion-and-uploads.md`](references/ingestion-and-uploads.md): parsing, two-track indexing, and recovery.
 - [`references/knowledge-graph.md`](references/knowledge-graph.md): graph enrichment and entity-aware retrieval.
 - [`references/security-and-evaluation.md`](references/security-and-evaluation.md): threat model and quality gates.
+- [`references/evaluation-playbook.md`](references/evaluation-playbook.md): evidence-first dataset design and release metrics.
 - [`references/production-gotchas.md`](references/production-gotchas.md): failures that are easy to miss in development.
 - [`examples/minimal-rrf`](examples/minimal-rrf): dependency-free JavaScript example with synthetic rankings.
+- [`examples/evaluation-kit`](examples/evaluation-kit): deterministic retrieval, citation, refusal, and authorization metrics.
+- [`templates`](templates): reusable evaluation-plan, threat-model, and architecture-decision templates.
 
 ## Try the example
 
@@ -68,6 +71,16 @@ npm run demo
 ```
 
 The example demonstrates only ranking fusion and citation mapping. It deliberately makes no network calls and contains no model integration.
+
+Run the evidence-first evaluation example separately:
+
+```bash
+cd examples/evaluation-kit
+npm test
+npm run demo
+```
+
+The synthetic demo intentionally includes an unauthorized retrieval candidate so the leakage gate produces a visible failure.
 
 ## What this is not
 
